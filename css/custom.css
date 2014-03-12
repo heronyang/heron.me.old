@@ -1,0 +1,42 @@
+.header-container, .footer-container, .main aside {
+    color: #666;
+}
+.header-container {
+    color: #000;
+}
+h1.title {
+    /*font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;*/
+    font-family: Papyrus, fantasy;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top:5px;
+    letter-spacing:3px;
+    margin-bottom: 15px;
+}
+body {
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+footer-container h3 {
+    font-family: Papyrus, fantasy;
+}
+.link {
+    color: #666;
+}
+span.tab {
+    display:inline-block;
+    height:1em;
+    width:2em;
+}
+li p {
+    margin:0px;
+}
+#aside-img {
+    text-align:center;
+    padding:20px;
+}
+.footer-container {
+    height: 80px;
+}
+footer.wrapper {
+    height: 18px;
+}
