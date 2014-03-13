@@ -32,7 +32,8 @@ li p {
 }
 #aside-img {
     text-align:center;
-    padding:20px;
+    padding-top:30px;
+    padding-bottom:10px;
 }
 .footer-container {
     height: 80px;
