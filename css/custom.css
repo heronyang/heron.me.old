@@ -4,6 +4,7 @@
 .header-container {
     color: #000;
 }
+
 h1.title {
     /*font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;*/
     font-family: Papyrus, fantasy;
@@ -36,8 +37,13 @@ li p {
     padding-bottom:10px;
 }
 .footer-container {
-    height: 80px;
+    height: 60px;
 }
 footer.wrapper {
     height: 18px;
+}
+h5 {
+    color: #444;
+    margin: 0px;
+    text-align: center;
 }
