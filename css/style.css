@@ -4,8 +4,15 @@ html {
 .indented {
     text-indent: 2em;
 }
-nav img {
-    z-index: 1;
+.nav-wrapper {
+    z-index: 3;
+}
+.nav-wrapper img {
+    -webkit-filter: drop-shadow(12px 12px 25px rgba(0, 0, 0, 1));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#000')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#000')";
+
 }
 .slider ul.indicators li.indicator-item.active {
     background-color: #666;
