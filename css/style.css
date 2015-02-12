@@ -1,0 +1,18 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+.indented {
+    text-indent: 2em;
+}
+nav img {
+    z-index: 1;
+}
+.slider ul.indicators li.indicator-item.active {
+    background-color: #666;
+}
+blockquote {
+    border-left: 5px solid #000;
+}
+a {
+    color: #fff;
+}
