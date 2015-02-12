@@ -24,9 +24,15 @@ a {
     color: #fff;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .nav-wrapper img {
         height: 3.3em;
         width: 7em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .slides img {
+        margin-top: -20em;
     }
 }
